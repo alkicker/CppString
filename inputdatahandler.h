@@ -12,7 +12,7 @@ class InputDataHandler
 {
 public:
     InputDataHandler() {}
-    std::vector<std::string> readStringsFromInput(std::optional<std::filesystem::path> inputFile) const;
+    std::vector<std::string> readStringsFromInput(const std::optional<std::filesystem::path> inputFile) const;
 
 private:
     std::vector<std::string> readStringsFromStdin() const;

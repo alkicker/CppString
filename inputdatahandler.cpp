@@ -1,6 +1,6 @@
 #include "inputdatahandler.h"
 
-std::vector<std::string> InputDataHandler::readStringsFromInput(std::optional<std::filesystem::path> inputFile) const
+std::vector<std::string> InputDataHandler::readStringsFromInput(const std::optional<std::filesystem::path> inputFile) const
 {
     if (inputFile.has_value())
     {
